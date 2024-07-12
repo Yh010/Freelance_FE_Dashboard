@@ -7,7 +7,7 @@ import { PublishButton } from "./publishButton";
 export default function Navbar() {
   return (
     <div className="border-b border-slate-200">
-      <div className="flex justify-between p-2">
+      <div className="flex justify-between p-2 px-4">
         <div className="flex items-center">
           <BreadcrumbComponent />
         </div>
